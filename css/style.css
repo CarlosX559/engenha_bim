@@ -105,6 +105,75 @@ header img {
 }
 
 
+@-webkit-keyframes pulse-laranja {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 #E28026, 0 0 0 0 #E24826;
+    }
+
+    70% {
+        transform: scale(1.01);
+        box-shadow: 0 0 0 10px transparent, 0 0 0 20px transparent;
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 transparent, 0 0 0 0 transparent;
+    }
+}
+
+@-moz-keyframes pulse-laranja {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 #E28026, 0 0 0 0 #E24826;
+    }
+
+    70% {
+        transform: scale(1.01);
+        box-shadow: 0 0 0 10px transparent, 0 0 0 20px transparent;
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 transparent, 0 0 0 0 transparent;
+    }
+}
+
+@-o-keyframes pulse-laranja {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 #E28026, 0 0 0 0 #E24826;
+    }
+
+    70% {
+        transform: scale(1.01);
+        box-shadow: 0 0 0 10px transparent, 0 0 0 20px transparent;
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 transparent, 0 0 0 0 transparent;
+    }
+}
+
+@keyframes pulse-laranja {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 #E28026, 0 0 0 0 #E24826;
+    }
+
+    70% {
+        transform: scale(1.01);
+        box-shadow: 0 0 0 10px transparent, 0 0 0 20px transparent;
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 transparent, 0 0 0 0 transparent;
+    }
+}
+
+
 .btn_container {
     display: block;
     background: radial-gradient(52% 52% at 48% 6.58%, #E28026 0%, #E24826 100%);
@@ -112,6 +181,10 @@ header img {
     max-width: 360px;
     width: 100%;
     padding: 22px 20px;
+    -webkit-animation: pulse-laranja 2s infinite;
+    -moz-animation: pulse-laranja 2s infinite;
+    -o-animation: pulse-laranja 2s infinite;
+    animation: pulse-laranja 2s infinite;
 }
 
 .btn_container h2 {
@@ -674,6 +747,73 @@ header img {
     width: 100%;
 }
 
+@-webkit-keyframes pulse-branco {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 #FFFFFF, 0 0 0 0 #FFFFFF;
+    }
+
+    70% {
+        transform: scale(1.01);
+        box-shadow: 0 0 0 10px transparent, 0 0 0 20px transparent;
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 transparent, 0 0 0 0 transparent;
+    }
+}
+
+@-moz-keyframes pulse-branco {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 #FFFFFF, 0 0 0 0 #FFFFFF;
+    }
+
+    70% {
+        transform: scale(1.01);
+        box-shadow: 0 0 0 10px transparent, 0 0 0 20px transparent;
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 transparent, 0 0 0 0 transparent;
+    }
+}
+
+@-o-keyframes pulse-branco {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 #FFFFFF, 0 0 0 0 #FFFFFF;
+    }
+
+    70% {
+        transform: scale(1.01);
+        box-shadow: 0 0 0 10px transparent, 0 0 0 20px transparent;
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 transparent, 0 0 0 0 transparent;
+    }
+}
+
+@keyframes pulse-branco {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 #FFFFFF, 0 0 0 0 #FFFFFF;
+    }
+
+    70% {
+        transform: scale(1.01);
+        box-shadow: 0 0 0 10px transparent, 0 0 0 20px transparent;
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 transparent, 0 0 0 0 transparent;
+    }
+}
 
 .link_btn_comprar {
     max-width: 300px;
@@ -688,6 +828,10 @@ header img {
     max-width: 300px;
     width: 100%;
     padding: 22px 20px;
+    -webkit-animation: pulse-branco 2s infinite;
+    -moz-animation: pulse-branco 2s infinite;
+    -o-animation: pulse-branco 2s infinite;
+    animation: pulse-branco 2s infinite;
 }
 
 .btn_comprar h2 {
@@ -705,7 +849,6 @@ header img {
     width: 100%;
     padding: 22px 20px;
     border: 3px solid #FFFFFF;
-
 }
 
 .btn_carrinho h2 {
