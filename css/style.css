@@ -3,6 +3,10 @@
     font-family: 'Montserrat';
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 @font-face {
     font-family: 'Sf pro Display bold';
     src: url('../fonte/SFPRODISPLAYBOLD.OTF');
