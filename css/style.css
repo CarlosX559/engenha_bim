@@ -636,7 +636,6 @@ header img {
 .area_box_7_dias {
     width: 100%;
     max-width: 430px;
-    height: 771px;
     background: #E26A26;
     border-radius: 48px;
 
@@ -649,6 +648,7 @@ header img {
     height: 100%;
     width: 100%;
     gap: 30px;
+    padding: 0px 0px 40px 0px;
 }
 
 .area_acesso {
@@ -1000,5 +1000,11 @@ header img {
 
     iframe {
         height: 215px;
+    }
+}
+
+@media(max-width: 375px) {
+    .btn_container h2 {
+        font-size: 1em;
     }
 }
