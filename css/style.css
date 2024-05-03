@@ -222,8 +222,9 @@ header img {
 
 .area_imgs_elaboracao {
     display: flex;
+    align-items: center;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
     width: 100%;
 }
 
@@ -269,6 +270,13 @@ header img {
     font-size: 1.2em;
     line-height: 140%;
     color: #151545;
+}
+
+.title_container_elaboracao h2 {
+    font-weight: 700;
+    font-size: 2.5em;
+    color: #151545;
+    text-align: center;
 }
 
 .curso_revit {
@@ -901,6 +909,7 @@ header img {
 
     .title_container_1 h1,
     .title_container_2 h2,
+    .title_container_elaboracao h2,
     .title_container_3 h2,
     .title_container_4 h2,
     .title_container_5 h2,
@@ -911,6 +920,10 @@ header img {
 
     .imgs_elaboracao img {
         max-width: 100%;
+    }
+
+    .area_imgs_elaboracao {
+        gap: 20px;
     }
     
     
@@ -990,12 +1003,18 @@ header img {
 
     .title_container_1 h1,
     .title_container_2 h2,
+    .title_container_elaboracao h2,
     .title_container_3 h2,
     .title_container_4 h2,
     .title_container_5 h2,
     .title_container_6 h2,
     .title_container_7 h2 {
         font-size: 1.8em;
+    }
+
+    .title_container_elaboracao h2 {
+        font-size: 1.6em;
+        padding: 0px 40px;
     }
 
     .container_1, .container_2, .container_3, .container_5 {
