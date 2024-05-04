@@ -895,7 +895,80 @@ header img {
     text-align: center;
 }
 
+footer {
+    width: 100%;
+    padding: 60px 0px 60px 0px;
+}
 
+.container_footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container_footer_int {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+}
+
+.area_container_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.area_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 300px;
+}
+
+
+.area_footer img {
+    max-width: 214px;
+    width: 100%;
+    height: auto;
+}
+
+.info_footer p {
+    font-family: 'Sf pro Display bold';
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 140%;
+    letter-spacing: 0.04em;
+    color: #120E10;
+
+}
+
+.title_footer h2 {
+    font-family: 'Sf pro Display bold';
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 140%;
+    letter-spacing: 0.04em;
+    color: #120E10;
+
+
+}
+
+.info_footer_2 p {
+    font-size: 1.2em;
+    line-height: 140%;
+    letter-spacing: 0.04em;
+    color: #120E10;
+
+}
+
+.area_int_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
 
 @media(max-width: 1024px) {
@@ -903,6 +976,7 @@ header img {
     #container_1 {
         height: auto;
     }
+
     .area_container_1 {
         padding: 0px 20px;
     }
@@ -925,8 +999,8 @@ header img {
     .area_imgs_elaboracao {
         gap: 20px;
     }
-    
-    
+
+
     .area_container_2 {
         flex-direction: column-reverse;
         gap: 20px;
@@ -995,6 +1069,17 @@ header img {
         padding: 0px 20px;
     }
 
+    footer {
+        padding: 40px 0px 40px 0px;
+    }
+
+    .area_container_footer {
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 0px 20px;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
 
 
 }
@@ -1017,7 +1102,10 @@ header img {
         padding: 0px 40px;
     }
 
-    .container_1, .container_2, .container_3, .container_5 {
+    .container_1,
+    .container_2,
+    .container_3,
+    .container_5 {
         padding: 40px 0px 40px 0px;
     }
 
@@ -1029,9 +1117,11 @@ header img {
         justify-content: center;
         align-items: center;
     }
+
     .area_text_container_5 {
         gap: 10px;
     }
+
     .area_container_5 {
         padding: 0px 20px;
     }
