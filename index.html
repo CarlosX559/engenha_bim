@@ -125,6 +125,60 @@
 
             </div>
 
+            <div class="area_player">
+                <div class="up_container">
+                    <div class="player-wrapper">
+                        <video class="player" width="500" height="500"
+                            preload="metadata" controls loop muted playsinline>
+                            <source src="video/VideoRevit2024.mp4" type="video/mp4">
+                            </source>
+                        </video>
+                        <script defer>
+
+                            var player = document.querySelector('.player');
+                            player.controls = false;
+                        
+                            player.play();
+                    
+                            function playClick() {
+                                player.play();
+                                player.volume = 1;
+                                player.muted = false;
+                                player.currentTime = 0;
+                                player.controls = false;
+
+                                document.querySelector(".thumb_1").style.display = "none";
+                                //document.querySelector(".hidden_controls").style.display = "none";
+
+                            }
+
+                            function pauseClick() {
+                                player.pause();
+                                document.querySelector(".thumb_2").style.display = "flex";
+                            }
+
+                            function returnVideo() {
+                                player.play();
+                                document.querySelector(".thumb_2").style.display = "none";
+                            }
+
+                        </script>
+
+                        <div class="thumb_1" onclick="playClick()">
+                            <img class="icon_video" src="img/play_btn.svg" alt="" width="113" height="133">
+                        </div>
+
+                        <div class="thumb_2" onclick="returnVideo()">
+                            <img class="icon_video" src="img/play_btn.svg" alt="" width="113" height="133">
+                        </div>
+
+                        <div class="hidden_controls"></div>
+
+                        <div class="glass" onclick="pauseClick()"></div>
+                    </div>
+                </div>
+            </div>
+
             <div class="area_imgs_elaboracao">
 
                 <div class="title_container_elaboracao">
